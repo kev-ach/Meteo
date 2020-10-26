@@ -1,15 +1,44 @@
+.clear {
+  background-image: url('images/clear.jpg');
+}
+
+.clouds {
+  background-image: url('images/clouds.jpg');
+}
+
+.drizzle {
+  background-image: url('images/drizzle.jpg');
+}
+
+.mist {
+  background-image: url('images/mist.jpg');
+}
+
+.rain {
+  background-image: url('images/rain.jpg');
+}
+
+.snow {
+  background-image: url('images/snow.jpg');
+}
+
 body {
   font-family: "Trebuchet MS";
   height: 100vh;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   text-align: center;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
   font-size: 3em;
+  position: relative;
 }
 
 h2 {
@@ -22,5 +51,18 @@ i.wi{
 }
 
 .tooltip {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  color: #FFF;
+  background-color: #222;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip {
+  top: -50px;
+  opacity: 1;
 }

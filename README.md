@@ -6,11 +6,11 @@ Récupérer l'adresse IP du client qui ouvre la page :  https://api.ipify.org?fo
 
 <===============================================>
 
-Récupérer la ville grace a l'adresse IP : http://freegeoip.net/json/adresseIPenQuestion
+Récupérer la ville grace a l'adresse IP : http://api.ipstack.com/adresseIPenQuestion?access_key=de93adce381ff44f08e99fa77d9ff9eb&format=1
 
 <===============================================>
 
-Récupérer les infos météo grace a la ville : http://api.openweathermap.org/data/2.5/weather?q=VillleEnQuestion&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&lang=fr&units=metric
+Récupérer les infos météo grace a la ville : http://api.openweathermap.org/data/2.5/weather?q=VillleEnQuestion&appid=40b7b127537db7e414d809f2c7a3a0bd&lang=fr&units=metric
 
 <===============================================>
 
